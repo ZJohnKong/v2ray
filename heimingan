@@ -4,20 +4,20 @@
       "type": "field",
       "outboundTag": "Reject",
       "domain": ["geosite:category-ads-all"]
-    }, //屏蔽广告
+    }, 
     {
       "type": "field",
       "outboundTag": "Proxy",
       "domain": ["geosite:gfw", "geosite:greatfire"]
-    }, //gfw的域名代理
+    }, 
     {
       "type": "field",
       "outboundTag": "Proxy",
       "ip": ["geoip:telegram"]
-    }, //代理
+    },
     {
       "type": "field",
       "outboundTag": "Direct",
-      "network": "tcp,udp" //剩下不在规则里的都直连。
+      "network": "tcp,udp" 
     }
   ]
